@@ -57,8 +57,6 @@ Resources:
         Api:
           Type: Api
           Properties:
-            Auth:
-              Authorizer: MyLambdaTokenAuthorizer
             Path: /
             Method: GET
 
